@@ -4,7 +4,7 @@ Author: Bjarne Varöystrand (@BlackSkorpio) (http://varoystrand.se | http://koke
 
 License: GPLv3
 
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: http://www.gnu.org/licenses/gpl.html
 
 A plugin for use with Koken [http://koken.me].
 
