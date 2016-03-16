@@ -1,0 +1,18 @@
+{
+	"name": "OxyGen Slideshow",
+	"version": "1.0",
+	"description": "Embed slideshows with controls in essays and pages.",
+	"author": {
+		"name": "Koken Community Support",
+		"link": "http://kokensupport.com"
+	},
+
+	"shortcodes": {
+		"og_slideshow": {
+			"title": "Insert a OxyGen Slideshow",
+			"description": "Display a slideshow in your essay or page with controls.",
+			"media": "collection",
+			"icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMTQgMTQiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE0IDE0IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxyZWN0IHk9IjIiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxNCIgaGVpZ2h0PSI4Ii8+DQo8cmVjdCB4PSI2LjEiIHk9IjEiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIyIiBoZWlnaHQ9IjEiLz4NCjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iNy4xLDExLjMgOSwxMi4zIDEwLjksMTIuMyA3LjEsMTAuNCAzLjMsMTIuMyA1LjIsMTIuMyAiLz4NCjwvc3ZnPg0K"
+		}
+	}
+}
