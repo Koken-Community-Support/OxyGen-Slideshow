@@ -1,17 +1,18 @@
 # OxyGen Slideshow Koken Plugin
 
-Author: [Bjarne Varöystrand  (@BlackSkorpio)](http://varoystrand.se) | [Koken Community Support](http://kokensupport.com)
+* **Author:** [Bjarne Varöystrand](http://varoystrand.se) @BlackSkorpio | [Koken Community Support](http://kokensupport.com)
+* **License:** [GPLv3](http://www.gnu.org/licenses/gpl.html)
+* **Documentation:** [OxyGen Slideshow Docs](http://docs.kokensupport.com/)
+* **Demo:**  [OxyGen Slideshow Docs](http://docs.kokensupport.com/)
 
-License: GPLv3
-
-License URI: http://www.gnu.org/licenses/gpl.html
-
-A plugin for use with [Koken](http://koken.me).
+A plugin for use with [Koken](http://koken.me) and the [OxyGen theme](http://oxygen.kokensupport.com/).
 
 ![OxyGen Slideshow Preview] (preview.jpg)
 ## Description
 Adds a shortcode to embed slideshows with next, previous and play/pause controls in essays or pages.
-When in text in your Koken admin area, and when editing an essay or page, click on the slideshow icon with a '+' on it to insert a slideshow with controls. Style the added controls using their CSS selectors:
+When in text in your Koken admin area, and when editing an essay or page, click on the slideshow icon with a '+' on it to insert a slideshow with controls.
+
+Style the added controls using their CSS selectors:
 ### Main container
 * .k-content-embed .og-slideshow
 
@@ -36,7 +37,7 @@ When in text in your Koken admin area, and when editing an essay or page, click 
 
 ## Frequently Asked Questions
 * Where are the settings?
-Users of OxyGen v3 will find settings for showing/hiding the Title and caption is found under the theme settings panel `Template`.
+Users of OxyGen v3 will find settings for showing/hiding the Title and caption in the theme settings panel `Template`.
 
 Slideshow settings for each slideshow, can be set directly inside `Admin->Site ->The slide show gear icon`.
 
@@ -63,4 +64,3 @@ As you can see there is not musch that is different, so wich one you choose to u
 
 ### Original Author
 * [Mike Hartley, bigflannel](http://bigflannel.com)
-* [Plugin Home Page](https://github.com/bigflannel/bigflannel-Slideshow-Embed-Koken-Plugin)
