@@ -44,14 +44,13 @@ Slideshow settings for each slideshow, can be set directly inside `Admin->Site -
 ## Changelog
 
 ### 1.1
-Abandonded using custom divs for the slideshow.
-
-Instead we are now using the same as the core slideshows: `<figure>` `<figcaption>` this way we get to re-use the themes built in classes. But still be able to set unciqe styles to each slideshow.
+* Abandonded using custom divs for the slideshow.
+* Instead we are now using the same as the core slideshows: `<figure>` `<figcaption>` this way we get to re-use the themes built in classes. But still be able to set unciqe styles to each slideshow.
+* Navigation buttons now fades out if no mouse movement is detected, and fades in again as soon as visitor moves the mouse.
 
 ### 1.0
-Forked bigflannel-Slideshow-Embed and tweeked it a bit more to "our liking".
-
-It is mostly the same plugin as before with small changes to the UX that we find making a better experience for the end user and admin.
+* Forked bigflannel-Slideshow-Embed and tweeked it a bit more to "our liking".
+* It is mostly the same plugin as before with small changes to the UX that we find making a better experience for the end user and admin.
 
 * Slideshows auto play, as you would expect, since this is the default state for the built in slideshows.
 * Click on a slideshow image opens up in lightbox view instead of advancing the slideshow.
@@ -60,7 +59,7 @@ It is mostly the same plugin as before with small changes to the UX that we find
 * The "next"/"previous" buttons only displays back and forward arrows instead of both arrows and text.
 * We added `.sldshw-prev`, `.sldshw-play` & `.sldshw-next` to the parent `<li>` that holds the navigation items to make it easier to style everything to your liking.
 
-As you can see there is not musch that is different, so wich one you choose to use is solely up to you :D
+As you can see there is not mutch that is different, so wich one you choose to use is solely up to you :D
 
 ### Original Author
 * [Mike Hartley, bigflannel](http://bigflannel.com)
