@@ -5,7 +5,7 @@
 * **Documentation:** [OxyGen Slideshow Docs](http://docs.kokensupport.com/)
 * **Demo:**  [OxyGen Slideshow Docs](http://docs.kokensupport.com/)
 
-A plugin for use with [Koken](http://koken.me) and the [OxyGen theme](http://oxygen.kokensupport.com/).
+A slideshow plugin for use with [Koken](http://koken.me) and the [OxyGen theme](http://oxygen.kokensupport.com/) (_You can still use this plugin even if your using another theme, but will need to add the extra CSS for the navigation buttons_).
 
 ![OxyGen Slideshow Preview] (preview.jpg)
 ## Description
@@ -37,7 +37,7 @@ Style the added controls using their CSS selectors:
 
 ## Frequently Asked Questions
 * Where are the settings?
-Users of OxyGen v3 will find settings for showing/hiding the Title and caption in the theme settings panel `Template`.
+Users of OxyGen **v3** will find settings for showing/hiding the Title and caption in the theme settings panel `Template`.
 
 Slideshow settings for each slideshow, can be set directly inside `Admin->Site ->The slide show gear icon`.
 
