@@ -1,12 +1,12 @@
 # OxyGen Slideshow Koken Plugin
 
-Author: Bjarne Varöystrand (@BlackSkorpio) (http://varoystrand.se | http://kokensupport.com)
+Author: [Bjarne Varöystrand  (@BlackSkorpio)](http://varoystrand.se) | [Koken Community Support](http://kokensupport.com)
 
 License: GPLv3
 
 License URI: http://www.gnu.org/licenses/gpl.html
 
-A plugin for use with Koken [http://koken.me].
+A plugin for use with [Koken](http://koken.me).
 
 ![OxyGen Slideshow Preview] (preview.jpg)
 ## Description
@@ -24,11 +24,11 @@ When in text in your Koken admin area, and when editing an essay or page, click 
 * `.og-slideshow ul .nav-content li`
 
 ### Style the image titles and captions using their CSS selectors:
-* `.og-slideshow .content-title`
-* `.og-slideshow .content-caption`
+* `.og-slideshow .k-content-title`
+* `.og-slideshow .k-content-caption`
 
 ### and their container's CSS selectors:
-* `.og-slideshow .text-content`
+* `.og-slideshow .k-content-text`
 
 ## Installation
 * Upload the folder 'OxyGen-slideshow' from the zip you download to the directory `/storage/plugins/`
@@ -36,10 +36,16 @@ When in text in your Koken admin area, and when editing an essay or page, click 
 
 ## Frequently Asked Questions
 * Where are the settings?
+Users of OxyGen v3 will find settings for showing/hiding the Title and caption is found under the theme settings panel `Template`.
 
-Settings for each slideshow, can be set directly inside `Admin->Site ->The slide show gear icon`.
+Slideshow settings for each slideshow, can be set directly inside `Admin->Site ->The slide show gear icon`.
 
 ## Changelog
+
+### 1.1
+Abandonded using custom divs for the slideshow.
+
+Instead we are now using the same as the core slideshows: `<figure>` `<figcaption>` this way we get to re-use the themes built in classes. But still be able to set unciqe styles to each slideshow.
 
 ### 1.0
 Forked bigflannel-Slideshow-Embed and tweeked it a bit more to "our liking".
@@ -55,6 +61,6 @@ It is mostly the same plugin as before with small changes to the UX that we find
 
 As you can see there is not musch that is different, so wich one you choose to use is solely up to you :D
 
-### Origianl Author
+### Original Author
 * [Mike Hartley, bigflannel](http://bigflannel.com)
 * [Plugin Home Page](https://github.com/bigflannel/bigflannel-Slideshow-Embed-Koken-Plugin)
