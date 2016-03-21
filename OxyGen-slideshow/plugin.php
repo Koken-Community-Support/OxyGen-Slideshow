@@ -61,21 +61,31 @@
 			el.html('{{ language.play }}');
 		}
 	};
-	var interval = 1;
-	setInterval(function(g){
-		if(interval == 5){
-			$('#nav_content').fadeOut(2000, function(h){
-				$('#nav_content').css({"display": "block","visibility": "hidden"});
-				interval = 1;
+	$(document).ready(function() {
+	//The page is "ready" and the document can be manipulated.
+		if (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)){
+			//If the device is a touch capable device, then...
+			$(document).on("touchstart", "a", function() {
+				//Do something on tap.
+			});
+		} else {
+			var interval = 1;
+			setInterval(function(g){
+				if(interval == 5){
+					$('#nav_content').fadeOut(2000, function(h){
+						$('#nav_content').css({"display": "block","visibility": "hidden"});
+						interval = 1;
+					});
+				}
+				interval = interval+1;
+			},1000);
+			$(document).bind('mousemove keypress', function(i) {
+				$('#nav_content').fadeIn(2000, function(j){
+					$('#nav_content').css({"visibility": "visible"});
+					interval = 1;
+				});
 			});
 		}
-		interval = interval+1;
-	},1000);
-	$(document).bind('mousemove keypress', function(i) {
-		$('#nav_content').fadeIn(2000, function(j){
-			$('#nav_content').css({"visibility": "visible"});
-			interval = 1;
-		});
 	});
 	</script>
 </figure>
