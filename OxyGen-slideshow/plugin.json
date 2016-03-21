@@ -1,10 +1,10 @@
 {
 	"name": "OxyGen Slideshow",
-	"version": "1.0",
+	"version": "1.1",
 	"description": "Embed slideshows with controls in essays and pages.",
 	"author": {
-		"name": "Koken Community Support",
-		"link": "http://kokensupport.com"
+		"name": "Bjarne Varoystrand",
+		"link": "http://varoystrand.se/sidor/oxygen-slideshow/"
 	},
 
 	"shortcodes": {
