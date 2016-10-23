@@ -43,6 +43,10 @@ Slideshow settings for each slideshow, can be set directly inside `Admin->Site -
 
 ## Changelog
 
+### 1.1.1
+* Minimized our Javascript and instead added the uncompressed/raw JS to OxyGen-slideshow.js for anyone that want to have a look at it.
+* [FIXED] Slideshow settings didn't stick
+
 ### 1.1
 * Abandonded using custom divs for the slideshow.
 * Instead we are now using the same as the core slideshows: `<figure>` `<figcaption>` this way we get to re-use the themes built in classes. But still be able to set unciqe styles to each slideshow.
